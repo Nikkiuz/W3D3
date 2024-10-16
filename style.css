@@ -1,0 +1,131 @@
+body {
+    margin: 2rem;
+    background-color: rgba(1, 71, 18, 0.507);
+}
+
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(38, 196, 38);
+    text-align: center;
+    border-radius: 5%;
+   
+    
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    background-color: rgb(38, 196, 38) ;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 8px;
+    border-radius: 10%;
+    box-shadow: 3px 3px rgb(129, 129, 129);
+}
+
+#formDiv {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+#firstDiv {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.5em; 
+    margin-right: 20px;
+   
+    
+
+}
+
+input {
+    font-size: 1.1em;
+    border-radius: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    box-shadow: 1px 1px rgb(129, 129, 129);
+    background-color: rgb(38, 196, 38) ;
+    
+    
+}
+
+#addButton{
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    background-color: rgba(247, 187, 34, 0.921);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px rgb(129, 129, 129);
+}
+
+
+
+
+#listSection{
+    
+    background-color: rgba(247, 187, 34, 0.921);
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 5%;
+    box-shadow: 3px 3px rgb(129, 129, 129);
+    padding-top: 20px;
+    list-style-position: inside;    
+}
+
+#listSection ul p{
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9em;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+#listSection ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    padding-bottom: 10px;
+    }
+
+#listSection button {
+    margin-top: 0.9em;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    background-color: rgb(238, 48, 19);
+    border-radius: 5px;
+    border: none;
+}
+    
+
+
+.Okbutton{
+    margin-top: 0.9em;
+    margin-bottom: 0.9px;
+    font-size: 0.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    background-color: rgb(38, 196, 38);
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+.Xbutton{
+    
+}

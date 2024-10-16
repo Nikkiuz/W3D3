@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>✘ CREATE YOUR TO-DO LIST ✔</h1>
+    </header>
+    
+    <main>
+        
+        <div id="formDiv">
+            <form id="form" action="Add New Task">
+                <div id="firstDiv">
+                    <label for="newTask">La tua task</label>
+                    <input id="newTask" type="text" placeholder="Cosa vuoi fare oggi?" maxlength="20">
+                </div>
+                <div id="secondDiv">
+                    <label for="description">Descrizione</label>
+                    <input id="description" type="text" placeholder="Aggiungi una descrizione" maxlength="100">
+                </div>
+                <div>
+                    <button id="addButton">Add new Task!</button>
+                </div>
+            </form>
+        </div>
+        <section>
+            <h2 id="listTitle">YOUR LIST</h2>
+            <div id="listSection">
+
+            </div>
+            <!-- <div id="listDiv">
+                <ul id="list">
+                    <li class="listElement"></li>
+                    <button class="Okbutton">Done ✔</button>
+                    <button class="Xbutton">Cancel ✘ </button>
+                    <li class="listElement"></li>
+                    <button class="Okbutton">Done ✔</button>
+                    <button class="Xbutton">Cancel ✘ </button>
+                    <li class="listElement"></li>
+                    <button class="Okbutton">Done ✔</button>
+                    <button class="Xbutton">Cancel ✘ </button>
+                    <li class="listElement"></li>
+                    <button class="Okbutton">Done ✔</button>
+                    <button class="Xbutton">Cancel ✘ </button>
+                </ul> -->
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
