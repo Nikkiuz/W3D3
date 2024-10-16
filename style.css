@@ -127,15 +127,6 @@ input {
     
 
 
-.Okbutton{
-    margin-top: 0.9em;
-    margin-bottom: 0.9px;
-    font-size: 0.9em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 8px;
-    background-color: rgb(38, 196, 38);
-    border-radius: 5px;
-    border: none;
-    margin-right: 5px;
+.cancel {
+    display: none;
 }
-

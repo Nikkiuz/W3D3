@@ -22,9 +22,23 @@ form.addEventListener('submit', function(e){
     listSection.appendChild(list)
 
     const newListElement = document.querySelector('ul li')
+    const newDescript = document.querySelector('ul p')
+    
     newListElement.addEventListener('click', function () {
-        newListElement.classList.add('barrato')
+        newListElement.classList.add('barrato'),
+        newDescript.classList.add('barrato')
+
     }) 
+
+    
+
+    const cancelButton = document.querySelector('ul button')
+    cancelButton.addEventListener('click', function () {
+        newListElement.classList.add('cancel'),
+        newDescript.classList.add('cancel'),
+        cancelButton.classList.add('cancel')
+        
+    })
    
     })
 
