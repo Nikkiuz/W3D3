@@ -104,6 +104,15 @@ input {
     text-align: center;
     }
 
+.barrato{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: line-through;
+}
+
 #listSection button {
     margin-top: 0.9em;
     margin-bottom: 20px;

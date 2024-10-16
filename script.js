@@ -1,6 +1,8 @@
 
 const form = document.getElementById('form')
-
+const newTask = document.getElementById('newTask').value
+const description = document.getElementById('description').value
+   
 form.addEventListener('submit', function(e){
     e.preventDefault()
     const newTask = document.getElementById('newTask').value
@@ -19,11 +21,10 @@ form.addEventListener('submit', function(e){
     const listSection = document.getElementById('listSection')
     listSection.appendChild(list)
 
+    const newListElement = document.querySelector('ul li')
+    newListElement.addEventListener('click', function () {
+        newListElement.classList.add('barrato')
+    }) 
    
-    })
-
-    newTask.addEventListener('click',function () {
-        newTask.innerText.style(font-decoration('strike'))
-        
     })
 
