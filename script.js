@@ -19,12 +19,11 @@ form.addEventListener('submit', function(e){
     const listSection = document.getElementById('listSection')
     listSection.appendChild(list)
 
-    // const button = document.querySelector('button')[1]
-    // button.addEventListener('click', function(){
-    //     display = none
-    // })
+   
+    })
 
-    // newTask.addEventListener('click', function () {
-    //     newTask.textContent.style.textDecoration = 'line-through'
+    newTask.addEventListener('click',function () {
+        newTask.innerText.style(font-decoration('strike'))
+        
     })
 

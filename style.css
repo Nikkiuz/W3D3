@@ -1,6 +1,7 @@
 body {
     margin: 2rem;
-    background-color: rgba(1, 71, 18, 0.507);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,121,9,1) 30%, rgba(228,255,0,1) 100%);
 }
 
 
