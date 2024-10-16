@@ -92,6 +92,7 @@ input {
     font-size: 0.9em;
     font-weight: 100;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 #listSection ul li {
@@ -99,6 +100,7 @@ input {
     font-size: 1.2em;
     font-weight: 900;
     padding-bottom: 10px;
+    text-align: center;
     }
 
 #listSection button {
@@ -110,6 +112,7 @@ input {
     background-color: rgb(238, 48, 19);
     border-radius: 5px;
     border: none;
+    box-shadow: 1px 1px rgb(129, 129, 129)
 }
     
 
@@ -126,6 +129,3 @@ input {
     margin-right: 5px;
 }
 
-.Xbutton{
-    
-}

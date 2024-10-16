@@ -6,8 +6,7 @@ form.addEventListener('submit', function(e){
     const newTask = document.getElementById('newTask').value
    
     const description = document.getElementById('description').value
-    // const cancelButton = 
-
+   
     const list = document.createElement('ul')
     list.classList.add('list')
     list.innerHTML = ` 
@@ -25,8 +24,7 @@ form.addEventListener('submit', function(e){
     //     display = none
     // })
 
-    newTask.addEventListener('click', function () {
-        newTask.textContent.style.textDecoration = 'line-through'
+    // newTask.addEventListener('click', function () {
+    //     newTask.textContent.style.textDecoration = 'line-through'
     })
 
-})
