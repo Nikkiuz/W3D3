@@ -13,7 +13,7 @@ form.addEventListener('submit', function(e){
     list.classList.add('list')
     list.innerHTML = ` 
                  <ul>
-                    <li>${newTask})</li>
+                    <li>${newTask}</li>
                     <p>${description}</p>
                     <button>${'Cancel ✘'} </button>
                     `
@@ -23,7 +23,7 @@ form.addEventListener('submit', function(e){
 
     const newListElement = document.querySelector('ul li')
     const newDescript = document.querySelector('ul p')
-    
+
     newListElement.addEventListener('click', function () {
         newListElement.classList.add('barrato'),
         newDescript.classList.add('barrato')
